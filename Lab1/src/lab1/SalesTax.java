@@ -5,8 +5,8 @@ import java.util.Scanner;
 /**
  * This program calculates the total price which includes sales tax.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @Diandre <a href="mailto:Andresenigma@hotmail.com">Diandre
+ * Grimes</a>
  */
 public class SalesTax {
 
