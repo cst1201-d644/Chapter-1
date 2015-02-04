@@ -5,7 +5,7 @@ import java.util.Scanner;  	//to be able to read from the keyboard
 /**
  * This program calculates the user's gross pay.
  *
- * @author <a href="mailto:Ziying.Guo@citytech.cuny.edu">Ziyi</a>
+ * @author <a href="mailto:Ziying.Guo@mail.citytech.cuny.edu">Ziyi</a>
  */
 public class Pay {
 
