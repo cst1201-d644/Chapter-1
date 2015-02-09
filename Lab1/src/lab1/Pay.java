@@ -1,4 +1,4 @@
-package lab1;
+ package lab1;
 
 import java.util.Scanner;  	//to be able to read from the keyboard
 
