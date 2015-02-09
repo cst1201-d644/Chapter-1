@@ -2,7 +2,7 @@ package lab1;
 
 import java.util.Scanner;
 
-/**
+/**..
  * This program calculates the total price which includes sales tax.
  *
  * @author <a href="mailto:Gladielle.Cifuentes@mail.citytech.cuny.edu">Gladielle
