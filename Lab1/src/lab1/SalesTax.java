@@ -28,8 +28,8 @@ public class SalesTax {
         price = keyboard.nextDouble();
 
         //calculations
-        tax = price + TAX_RATE;
-        total = price * tax;
+        tax = price * TAX_RATE;
+        total = price + TAX_RATE*10;
 
         //display results
         System.out.print(item + "        $");
