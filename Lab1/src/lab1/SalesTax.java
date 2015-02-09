@@ -29,8 +29,8 @@ public class SalesTax {
         price = keyboard.nextDouble();
 
         //calculations
-        tax = price + TAX_RATE;
-        total = price * tax;
+        tax = price * TAX_RATE;
+        total = price + tax;
 
         //display results
         System.out.print(item + "        $");
