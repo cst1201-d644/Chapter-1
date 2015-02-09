@@ -5,8 +5,9 @@ import java.util.Scanner;
 /**
  * This program calculates the total price which includes sales tax.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @author <a href="mailto:dheyazen.alseelwe@mail@citytech.cuny.edu">dheyazen
+ * alseelwe
+ * </a>
  */
 public class SalesTax {
 
@@ -14,7 +15,7 @@ public class SalesTax {
         //identifier declarations
         final double TAX_RATE = 0.055;
         double price;
-        double tax
+        double tax;
 	double total;
         String item;
 
@@ -28,8 +29,8 @@ public class SalesTax {
         price = keyboard.nextDouble();
 
         //calculations
-        tax = price + TAX_RATE;
-        totl = price * tax;
+        tax = price * TAX_RATE;
+        total = price + tax;
 
         //display results
         System.out.print(item + "        $");
