@@ -1,12 +1,11 @@
-package lab1;
+ package lab1;
 
 import java.util.Scanner;  	//to be able to read from the keyboard
 
 /**
  * This program calculates the user's gross pay.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @author <a href="danish.khan@mail.citytech.cuny.edu">Danish Khan</a>
  */
 public class Pay {
 
