@@ -13,7 +13,7 @@ public class SalesTax {
         //identifier declarations
         final double TAX_RATE = 0.055;
         double price;
-        double tax
+        double tax;
 	double total;
         String item;
 
