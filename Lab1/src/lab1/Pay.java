@@ -1,5 +1,6 @@
 package lab1;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;  	//to be able to read from the keyboard
 
 /**
@@ -31,9 +32,11 @@ public class Pay {
         } else {
             pay = (hours - 40) * (1.5 * rate) + 40 * rate;
         }
+        
+        DecimalFormat df = new DecimalFormat("0.00");
 
         //display results
-        System.out.println("You earned $" + pay);
+        System.out.println("You earned $" + df.format(pay));
     }
 
 }
