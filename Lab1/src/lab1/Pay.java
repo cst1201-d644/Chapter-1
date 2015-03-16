@@ -1,5 +1,6 @@
 package lab1;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;  	//to be able to read from the keyboard
 
 /**
@@ -34,5 +35,5 @@ public class Pay {
         //display results
         System.out.println("You earned $" + pay);
     }
-
+DecimalFormat formater = new DecimalFormat();
 }
