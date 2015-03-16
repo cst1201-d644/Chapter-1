@@ -5,8 +5,7 @@ import java.util.Scanner;  	//to be able to read from the keyboard
 /**
  * This program calculates the user's gross pay.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @author <a href="mailto:Evan.Chin@mail.citytech.cuny.edu">Evan Chin</a>
  */
 public class Pay {
 
@@ -17,7 +16,7 @@ public class Pay {
         //identifier declarations
         double hours;	//number of hours worked
         double rate;	//hourly pay rate
-        double pay;		//gross pay
+        double pay;	//gross pay
 
         //display prompts and get input
         System.out.print("How many hours did you work? ");
