@@ -16,7 +16,7 @@ public class Pay {
         //identifier declarations
         double hours;	//number of hours worked
         double rate;	//hourly pay rate
-        double pay;		//gross pay
+        double pay;	//gross pay
 
         //display prompts and get input
         System.out.print("How many hours did you work? ");

@@ -1,5 +1,6 @@
 package lab1;
 
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 /**
@@ -29,7 +30,9 @@ public class SalesTax {
         //calculations
         tax = price * TAX_RATE;
         total = price + tax;
-
+        
+        NumberFormat nf = NumberFormat.getInstance();
+        
         //display results
         System.out.print(item + "        $");
         System.out.println(price);
