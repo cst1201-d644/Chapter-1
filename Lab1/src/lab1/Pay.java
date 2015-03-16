@@ -1,7 +1,7 @@
 package lab1;
 
 import java.util.Scanner;  	//to be able to read from the keyboard
-
+import java.text.DecimalFormat;
 /**
  * This program calculates the user's gross pay.
  *
@@ -12,7 +12,7 @@ public class Pay {
     public static void main(String[] args) {
         //create a Scanner object to read from the keyboard
         Scanner keyboard = new Scanner(System.in);
-
+        DecimalFormat formatter = new DecimalFormat("#0.00");
         //identifier declarations
         double hours;	//number of hours worked
         double rate;	//hourly pay rate
@@ -32,7 +32,7 @@ public class Pay {
         }
 
         //display results
-        System.out.println("You earned $" + pay);
+        System.out.println("You earned $" + formatter.format(pay));
     }
 
 }
