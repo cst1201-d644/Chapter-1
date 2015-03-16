@@ -1,6 +1,7 @@
 package lab1;
 
-import java.util.Scanner;  	//to be able to read from the keyboard
+import java.text.DecimalFormat;  	//to be able to read from the keyboard
+import java.util.Scanner;
 
 /**
  * This program calculates the user's gross pay.
@@ -29,10 +30,11 @@ public class Pay {
             pay = hours * rate;
         } else {
             pay = (hours - 40) * (1.5 * rate) + 40 * rate;
+            
         }
-
+          DecimalFormat df = new DecimalFormat("0.") ;
         //display results
-        System.out.println("You earned $" + pay);
+        System.out.println("You earned $" + df.format(pay));
     }
 
 }
