@@ -1,12 +1,13 @@
 package lab1;
 
 import java.util.Scanner;
-
+import javax.swing.JOptionPane;
+import java.text.DecimalFormat;
 /**
  * This program calculates the total price which includes sales tax.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @author <a href="mailto:sameen.qaiser@citytech.cuny.edu">Sameen
+ * Qaiser</a>
  */
 public class SalesTax {
 
@@ -14,10 +15,10 @@ public class SalesTax {
         //identifier declarations
         final double TAX_RATE = 0.055;
         double price;
-        double tax
+        double tax;
 	double total;
         String item;
-
+DecimalFormat formatter = new DecimalFormat("#0.00");
         //create a Scanner object to read from the keyboard
         Scanner keyboard = new Scanner(System.in);
 
@@ -29,14 +30,14 @@ public class SalesTax {
 
         //calculations
         tax = price + TAX_RATE;
-        totl = price * tax;
+        total = price * tax;
 
         //display results
         System.out.print(item + "        $");
-        System.out.println(price);
+        System.out.println ( formatter.format(price));
         System.out.print("Tax          $");
-        System.out.println(tax);
+        System.out.println(formatter.format(tax));
         System.out.print("Total        $");
-        System.out.println(total);
+        System.out.println(formatter.format(total));
     }
 }
