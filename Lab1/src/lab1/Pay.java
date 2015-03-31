@@ -1,12 +1,12 @@
 package lab1;
 
 import java.util.Scanner;  	//to be able to read from the keyboard
-
+import javax.swing.JOptionPane;
+import java.text.DecimalFormat;
 /**
  * This program calculates the user's gross pay.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @author <a href="mailto:Ziying.Guo@mail.citytech.cuny.edu">Ziyi</a>
  */
 public class Pay {
 
@@ -18,7 +18,7 @@ public class Pay {
         double hours;	//number of hours worked
         double rate;	//hourly pay rate
         double pay;		//gross pay
-
+DecimalFormat formatter = new DecimalFormat("#0.00");
         //display prompts and get input
         System.out.print("How many hours did you work? ");
         hours = keyboard.nextDouble();
@@ -33,7 +33,8 @@ public class Pay {
         }
 
         //display results
-        System.out.println("You earned $" + pay);
+        System.out.println("You earned $" + formatter.format(pay));
+        
     }
 
 }
