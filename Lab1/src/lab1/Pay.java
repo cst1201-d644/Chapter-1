@@ -1,12 +1,12 @@
 package lab1;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;  	//to be able to read from the keyboard
 
 /**
  * This program calculates the user's gross pay.
  *
- * @author <a href="mailto:rkhatchadourian@citytech.cuny.edu">Raffi
- * Khatchadourian</a>
+ * @author <a href="mailto:jeanluc.antoine@citytech.cuny.edu">Jean-Luc Antoine</a>
  */
 public class Pay {
 
@@ -35,5 +35,5 @@ public class Pay {
         //display results
         System.out.println("You earned $" + pay);
     }
-
+DecimalFormat formater = new DecimalFormat();
 }
